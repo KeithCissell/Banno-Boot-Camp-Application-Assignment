@@ -1,0 +1,25 @@
+{
+  "name": "Banno-Boot-Camp-Application-Assignment",
+  "version": "1.0.0",
+  "description": "A programming project that fetches HTML data through HTTP and performs an analysis on the result.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --watch",
+    "build": "webpack --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeithCissell/Banno-Boot-Camp-Application-Assignment.git"
+  },
+  "keywords": [],
+  "author": "Keith A Cissell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeithCissell/Banno-Boot-Camp-Application-Assignment/issues"
+  },
+  "homepage": "https://github.com/KeithCissell/Banno-Boot-Camp-Application-Assignment#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
