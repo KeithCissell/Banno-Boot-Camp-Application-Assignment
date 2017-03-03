@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: lightgrey;
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+}
+
+h1 {
+    font-size: 40pt;
+    margin: 5pt;
+}
+
+h2 {
+    font-size: 30pt;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 10pt;
+}
+
+.header {
+    padding: 10pt;
+    padding-bottom: 20pt;
+    height: 25%;
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+.header a {
+    color: black;
+    font-size: 15pt;
+}
+
+.header label {
+    font-weight: bold;
+}
+
+.url-input {
+    margin-top: 8pt;
+    margin-bottom: 8pt;
+    width: 50%;
+}
+
+.display {
+    padding: 20pt;
+    padding-top: 0;
+}
+
+.data-list {
+    columns: 2;
+    list-style: none;
+}

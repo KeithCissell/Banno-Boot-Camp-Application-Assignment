@@ -1,25 +1,24 @@
 {
-  "name": "Banno-Boot-Camp-Application-Assignment",
+  "name": "banno-assignment",
   "version": "1.0.0",
-  "description": "A programming project that fetches HTML data through HTTP and performs an analysis on the result.",
-  "main": "index.js",
+  "description": "A minimal Electron application",
+  "main": "main.js",
   "scripts": {
-    "start": "webpack-dev-server --progress --watch",
-    "build": "webpack --progress --colors --watch"
+    "start": "electron ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KeithCissell/Banno-Boot-Camp-Application-Assignment.git"
-  },
-  "keywords": [],
-  "author": "Keith A Cissell",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KeithCissell/Banno-Boot-Camp-Application-Assignment/issues"
-  },
-  "homepage": "https://github.com/KeithCissell/Banno-Boot-Camp-Application-Assignment#readme",
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
   "devDependencies": {
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.1"
+    "electron": "^1.4.1",
+    "jquery": "^3.1.1",
+    "node-fetch": "^1.6.3"
   }
 }
