@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Banno Assignment</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>HTML Analyzer</h1>
+        <hr width="80%" />
+        <label>URL: </label>
+        <input type="text" class="url-input" id="input-url">
+        <button id="submit-url">Submit</button>
+        <br/>
+        <button class="try-banno" id="try-banno">Try it on Banno!</button>
+    </div>
+    <div class="display">
+        <h2>Data Analysis</h2>
+        <hr width="95%" color="dodgerblue" />
+        <div class="data">
+            <div class="data-overview">
+                <h3>Overview of <span id="overview-title">Site</span></h3>
+                <div class="overview" id="overview"></div>
+            </div>
+            <div class="data-analysis">
+                <div id="anums">
+                    <h3>Top 3 Alphanumeric Characters</h3>
+                    <h4>First: <span></span></h4>
+                    <h4>Second: <span></span></h4>
+                    <h4>Third: <span></span></h4>
+                </div>
+                <div id="images">
+                    <h3>Images on the Page</h3>
+                    <h4>PNGs: <span></span></h4>
+                    <h4>JPGs: <span></span></h4>
+                    <h4>GIFs: <span></span></h4>
+                </div>
+                <div id="banno-data">
+                </div>
+            </div>
+        </div>
+        <div class="find-phrase">
+            <h3>Search for a Phrase</h3>
+            <label>Phrase: </label>
+            <input type="text" id="phrase-input">
+            <button id="search-phrase">Search</button>
+            <span id="phrase-result"></span>
+        </div>
+    </div>
+</body>
+
+<script>
+    require('./app/index.js')
+</script>
+
+</html>

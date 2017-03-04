@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10pt;
+    width: 100%;
+    background-color: lightgrey;
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+}
+
+h1 {
+    font-size: 40pt;
+    margin: 5pt;
+}
+
+h2 {
+    font-size: 30pt;
+    margin: 15pt;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 17pt;
+}
+
+h3 span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 10pt;
+}
+
+h6 {
+    margin: 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+span {
+    font-weight: normal;
+}
+
+.header {
+    padding: 10pt;
+    padding-bottom: 20pt;
+    height: 25%;
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+.header a {
+    color: black;
+    font-size: 15pt;
+}
+
+.header label {
+    font-weight: bold;
+}
+
+.url-input {
+    margin-top: 8pt;
+    margin-bottom: 8pt;
+    width: 50%;
+}
+
+.try-banno {
+    background: none;
+    border: none;
+    padding: 0;
+    color: black;
+    font-size: 15pt;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.display {
+    padding: 20pt;
+    padding-top: 0;
+    height: 75%;
+}
+
+.data {
+    height: 55%;
+}
+
+.data-overview {
+    width: 60%;
+    float: left;
+}
+
+.overview {
+    width: 100%;
+    max-height: 40%;
+    overflow-y: scroll;
+    border-radius: 3px;
+}
+
+.header1 {
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.header2 {
+    margin-left: 15pt;
+    font-size: 11pt;
+}
+
+.header3 {
+    margin-left: 30pt;
+    font-size: 8pt;
+}
+
+.data-analysis {
+    width: 35%;
+    float: right;
+}
+
+.find-phrase {
+    position: fixed;
+    bottom: 0;
+    width: 60%;
+    padding-bottom: 30pt;
+    background-color: lightgrey;
+}
