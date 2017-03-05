@@ -26,6 +26,13 @@ const imgTypes = images.getElementsByTagName("span");
 const bannoData = document.getElementById("banno-data");
 const phraseResult = document.getElementById("phrase-result");
 
+// Set overview height acording to screen size
+let totalHeight = screen.height;
+let ovHeight = Math.round(totalHeight * .32);
+let height = ovHeight + "px";
+console.log(height);
+overview.style.maxHeight = height;
+
 
 // Grabs input site, analyzes and outputs data
 function fetchSite(callback) {
