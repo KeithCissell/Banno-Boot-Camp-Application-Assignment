@@ -28,7 +28,7 @@ const phraseResult = document.getElementById("phrase-result");
 
 // Set overview height acording to screen size
 let totalHeight = screen.height;
-let ovHeight = Math.round(totalHeight * .32);
+let ovHeight = Math.round(totalHeight * .3);
 let height = ovHeight + "px";
 console.log(height);
 overview.style.maxHeight = height;

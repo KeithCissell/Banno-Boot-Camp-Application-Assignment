@@ -93,6 +93,7 @@ span {
 
 .overview {
     width: 100%;
+    padding: 5pt;
     overflow-y: scroll;
     border-radius: 3px;
 }
